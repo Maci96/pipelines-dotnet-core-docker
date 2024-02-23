@@ -5,7 +5,7 @@ ENV TZ="Africa/Johannesburg"
  
 RUN ls -l
 # Copy the published application files to the container
-COPY app app
+COPY ./ ./
  
 # Set the working directory inside the container
 WORKDIR /app
